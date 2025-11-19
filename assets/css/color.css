@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #f7941d; /* Orange - Travel Booking */
+  --secondary-color: #4dbbe4; /* Light Blue - Resort Booking */
+  --accent-color: #e84c2c; /* Red-Orange - Blog */
+  --dark-color: #1e2a4a; /* Deep Navy Blue - Menu */
+  --text-color: #ffffff;
+  --background-color: #f4f4f4;
+  --custom-color: #333333; /* Custom Color */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
