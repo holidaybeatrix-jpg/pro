@@ -1,0 +1,19 @@
+# Enable rewriting
+RewriteEngine On
+RewriteBase /golivevacation/
+
+# If the requested file or directory exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+# Redirect URLs with .php to the extensionless version
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L,NE]
+
+# Custom 404 page
+ErrorDocument 404 /golivevacation/404.php

@@ -1,13 +1,13 @@
-/node_modules
-/vendor
-/.env
-/.vscode
-.DS_Store
-/*.log
-/*.cache
-/*.bak
-/*.old
-/*.swp
-.htaccess
-/Thumbs.db
-actions/db.php
+# /node_modules
+# /vendor
+# /.env
+# /.vscode
+# .DS_Store
+# /*.log
+# /*.cache
+# /*.bak
+# /*.old
+# /*.swp
+# .htaccess
+# /Thumbs.db
+# actions/db.php
