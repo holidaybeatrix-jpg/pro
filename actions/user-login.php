@@ -1,5 +1,5 @@
 <?php
-require_once 'db.php'; // include your DB connection
+require_once './db.php'; // include your DB connection
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

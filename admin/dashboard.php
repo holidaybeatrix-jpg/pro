@@ -489,8 +489,8 @@ if (!(isset($_SESSION) && $_SESSION['role'] == 'admin')) {
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
         <div class="logo">
-            <img src="https://dummyimage.com/40x40/fff/000&text=A" alt="Logo">
-            <h2>Admin Panel</h2>
+            <img src="https://dummyimage.com/40x40/fff/000&text=<?php echo $_SESSION['name'][0]; ?>" alt="Logo">
+            <h2>Admin</h2>
         </div>
         <nav>
             <a id="dashboard-link" class="active"><span class="material-icons">dashboard</span> Dashboard</a>

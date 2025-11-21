@@ -49,7 +49,7 @@
 
                         <div>
                             <h4>EMAIL</h4>
-                            <p>info@beatrixholiday.com</p>
+                            <p>hi@beatrixholiday.com</p>
                         </div>
 
                         <div>
@@ -108,7 +108,7 @@
             position: fixed;
             right: 10px;
             top: 50%;
-            background: white;
+            background: transparent !important;
         }
 
         .social-linksf {
@@ -130,7 +130,7 @@
             align-items: center;
             justify-content: center;
             /* font-size: 16px; */
-            color: #333;
+            color: #ecebebff;
             transition: 0.3s ease;
         }
 
@@ -171,7 +171,7 @@
             align-items: center;
             justify-content: center;
             /* font-size: 16px; */
-            color: #333;
+            color: #ebe5e5ff;
             transition: 0.3s ease;
         }
 

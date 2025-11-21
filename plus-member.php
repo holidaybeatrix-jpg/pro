@@ -271,9 +271,32 @@ include 'inc/footer.php';
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
-    const popupOverlay = document.getElementById("popupOverlay");
+    // const popupOverlay = document.getElementById("popupOverlay");
     const popupBox = document.getElementById("popupBox");
     const openBtn = document.querySelector(".openPopupBtn");
     const closeBtn = document.getElementById("closeBtn");
@@ -292,7 +315,7 @@ include 'inc/footer.php';
     }
 
     closeBtn.addEventListener("click", closePopup);
-    popupOverlay.addEventListener("click", closePopup);
+    //popupOverlay.addEventListener("click", closePopup);
 
 
     document.getElementById("popupForm").addEventListener("submit", function(e) {

@@ -26,7 +26,7 @@ include 'inc/header.php';
       </p>
     </div>
 
-    <div class="row gy-4 text-center stats-section px-4 mx-4">
+    <div class="row gy-4 text-center stats-section ">
       <div class="col-6 col-md-3">
         <h2 class="fw-bold stat-number text-sky">100+</h2>
         <p class="fw-semibold">Countries Worldwide</p>

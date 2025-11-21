@@ -314,6 +314,7 @@ header .navbar div {
 
 .stats-section {
   background: #fff;
+  padding: 60px 0;
 }
 
 .stat-number {
@@ -357,6 +358,10 @@ header .navbar div {
 @media (max-width: 576px) {
   .stat-number {
     font-size: 2rem;
+  }
+  .stats-section{
+    padding: 0px 0;
+    margin: 0 0;
   }
 
   .stats-section p {

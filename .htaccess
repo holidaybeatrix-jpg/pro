@@ -1,4 +1,4 @@
-# Enable rewriting
+        # Enable rewriting
 RewriteEngine On
 RewriteBase /golivevacation/
 
